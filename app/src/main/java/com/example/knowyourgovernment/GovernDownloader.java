@@ -21,7 +21,7 @@ public class GovernDownloader extends AsyncTask<String, Void, String> {
 
     private MainActivity mainActivity;
     private static final String apiBase = "https://www.googleapis.com/civicinfo/v2/representatives?key=";
-    private static final String myAPIkey = "AIzaSyDBANncCsg2OqFjfb8d6zIa-jbpTwTV9yg";
+    private static final String myAPIkey = "APIkey"; //your APIkey  
 
     ArrayList<Official> officialArrList = new ArrayList<>();
     private String city;
